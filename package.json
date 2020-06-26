@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/wildenali/Javascript_BackEnd/issues"
   },
-  "homepage": "https://github.com/wildenali/Javascript_BackEnd#readme"
+  "homepage": "https://github.com/wildenali/Javascript_BackEnd#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "routes": "^2.1.0",
+    "swig": "^1.4.2"
+  }
 }
