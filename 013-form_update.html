@@ -1,0 +1,22 @@
+{% extends '013-layout.html' %}
+
+{% block content %}
+    <h2>Update Data</h2>
+    <form method="post">
+        <table width="400px">
+            <tr>
+                <td><label>NIM </label></td>
+                <td><input type="text" name="nim" value="{{ data.nim }}" disabled></td>
+            </tr>
+            <tr>
+                <td><label>Nama </label></td>
+                <td><input type="text" name="nama" value="{{ data.nama }}"></td>
+            </tr>
+            <tr>
+                <td><label>Alamat </label></td>
+                <td><textarea name="alamat" cols="30" rows="10">{{ data.alamat }}</textarea></td>
+            </tr>
+        </table>
+        <input type="submit" value="Simpan">
+    </form>
+{% endblock %}
