@@ -4,11 +4,17 @@
 
 di Terminal
 
-`node .\001-HelloWorld.js`
+`$ node .\001-HelloWorld.js`
 
 ### Install nodemon
 Ini supaya tidak melakukan run apps dengan cara node .\app.js
 jadi biar kalau programnya berubah, dia berubah langsung
 
 #### Run nodemon
-`nodemon.cmd .\001-HelloWorld.js`
+`$ nodemon.cmd .\001-HelloWorld.js`
+
+
+### Install Engine EJS
+di https://ejs.co/
+
+`$ npm install ejs`
